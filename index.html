@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tote & Luxe — Bags & Jewelry, Made to Last</title>
+    <meta name="description"
+        content="Tote & Luxe — tote bags, fashion handbags, party clutches and stainless-steel jewelry, made to outlast the trends around them. Order directly on WhatsApp.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Inter:wght@300;400;500;600&display=swap"
+        rel="stylesheet">
+
+    <link rel="icon"
+        href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' fill='%230B0B0B'/%3E%3Cpath d='M30 40 h40 l-3 40 h-34 z' fill='none' stroke='%23C8A646' stroke-width='3'/%3E%3Cpath d='M38 40 v-8 a12 12 0 0 1 24 0 v8' fill='none' stroke='%23C8A646' stroke-width='3'/%3E%3C/svg%3E">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div id="preloader">
+        <svg viewBox="0 0 100 60" fill="none">
+            <path d="M18 18 h64 l-5 40 h-54 z" stroke-width="2.5" />
+            <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke-width="2.5" />
+        </svg>
+        <span>Tote &amp; Luxe</span>
+    </div>
+
+    <!-- ================= NAV ================= -->
+    <header id="siteHeader">
+        <a href="#home" class="logo-mark">
+            <!-- <svg viewBox="0 0 100 60" fill="none">
+                <path d="M18 18 h64 l-5 40 h-54 z" stroke-width="3" />
+                <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke-width="3" />
+            </svg>
+            <span class="word">Tote <em>&amp;</em> Luxe</span> -->
+            <img src="tote_luxe_logo_plain.png" alt="Tote & Luxe logo" loading="lazy" class="my_logo">
+        </a>
+
+        <div class="nav-links" id="navLinks">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#collection">Collection</a></li>
+                    <li><a href="#story">About</a></li>
+                    <li><a href="#journal">Journal</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div style="display:flex;align-items:center;gap:22px;">
+            <a class="nav-order" id="navWa" target="_blank" rel="noopener">
+                <svg viewBox="0 0 24 24">
+                    <path
+                        d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.6-1.28 1.16-1.76 1.2-.45.05-1.01.07-1.63-.1-.37-.1-.85-.27-1.46-.53-2.57-1.11-4.24-3.7-4.37-3.87-.13-.17-1.04-1.38-1.04-2.63 0-1.26.66-1.87.9-2.13.24-.26.52-.32.7-.32h.5c.16 0 .38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.46-.35.68-.7.66-.5 1a8.9 8.9 0 0 0 1.62 2c.72.63 1.32.83 1.5.92.19.1.3.08.4-.05.13-.16.55-.64.7-.86.15-.22.29-.18.49-.1.2.07 1.27.6 1.49.71.22.11.36.16.42.25.06.1.06.55-.16 1.14z" />
+                </svg>
+                <span>Order</span>
+            </a>
+            <div class="burger" id="burger"><span></span><span></span><span></span></div>
+        </div>
+    </header>
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="home">
+        <div class="hero-bg"></div>
+        <div class="hero-glow"></div>
+        <div class="particles" id="particles"></div>
+
+        <div class="hero-content">
+            <!-- <svg class="hero-mark" viewBox="0 0 100 60" fill="none">
+                <path d="M18 18 h64 l-5 40 h-54 z" stroke-width="2" />
+                <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke-width="2" />
+            </svg> -->
+            <span class="eyebrow reveal">Ilorin · WAT. 2026</span>
+            <h1 class="reveal">Carry what <em>lasts</em>, not what's loud.</h1>
+            <p class="hero-sub reveal">Tote bags, fashion handbags, party clutches and fine stainless-steel jewelry —
+                made in small numbers and chosen for material integrity over noise. No storefront, no queues — just a
+                direct line to us.</p>
+            <div class="cta-row reveal">
+                <a href="#" class="btn-gold wa-link">
+                    <svg viewBox="0 0 24 24">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.6-1.28 1.16-1.76 1.2-.45.05-1.01.07-1.63-.1-.37-.1-.85-.27-1.46-.53-2.57-1.11-4.24-3.7-4.37-3.87-.13-.17-1.04-1.38-1.04-2.63 0-1.26.66-1.87.9-2.13.24-.26.52-.32.7-.32h.5c.16 0 .38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.46-.35.68-.7.66-.5 1a8.9 8.9 0 0 0 1.62 2c.72.63 1.32.83 1.5.92.19.1.3.08.4-.05.13-.16.55-.64.7-.86.15-.22.29-.18.49-.1.2.07 1.27.6 1.49.71.22.11.36.16.42.25.06.1.06.55-.16 1.14z" />
+                    </svg>
+                    Shop on WhatsApp
+                </a>
+                <a href="#collection" class="btn-outline">View Collection</a>
+            </div>
+        </div>
+
+        <div class="scroll-cue"><span>Scroll</span>
+            <div class="line"></div>
+        </div>
+    </section>
+
+    <!-- ================= FEATURED COLLECTION ================= -->
+    <section class="section-pad" id="collection">
+        <div class="container">
+            <div class="head-block reveal">
+                <span class="eyebrow">The Edit</span>
+                <h2>Three Ways to Carry</h2>
+                <div class="divider-mark"><svg viewBox="0 0 100 60" fill="none">
+                        <path d="M18 18 h64 l-5 40 h-54 z" stroke-width="3" />
+                        <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke-width="3" />
+                    </svg></div>
+                <p>We keep the range narrow on purpose. Fewer pieces, made properly, photographed honestly. Clothing and
+                    footwear join the edit as we grow.</p>
+            </div>
+
+            <div class="collection-grid">
+                <div class="collection-card reveal">
+                    <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Totes_5.jpg?v=1785022025&fm=jpg&q=80&w=1200&auto=format&fit=crop"
+                        alt="Woman walking down a street carrying a tote bag" loading="lazy">
+                    <div class="collection-info">
+                        <span class="eyebrow">01</span>
+                        <h3>Tote Bags</h3>
+                        <a href="#bestsellers" class="collection-link">Shop Totes →</a>
+                    </div>
+                </div>
+                <div class="collection-card reveal">
+                    <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Polenebagblack.jpg?v=1785017920&fm=jpg&q=80&w=1200&auto=format&fit=crop"
+                        alt="Handbag and party clutch styled on a table" loading="lazy">
+                    <div class="collection-info">
+                        <span class="eyebrow">02</span>
+                        <h3>Bags &amp; Clutches</h3>
+                        <a href="#bestsellers" class="collection-link">Shop Bags →</a>
+                    </div>
+                </div>
+                <div class="collection-card reveal">
+                    <img src="https://images.unsplash.com/photo-1611652022419-a9419f74343d?fm=jpg&q=80&w=1200&auto=format&fit=crop"
+                        alt="Woman wearing a fine silver-tone necklace" loading="lazy">
+                    <div class="collection-info">
+                        <span class="eyebrow">03</span>
+                        <h3>Jewelry</h3>
+                        <a href="#bestsellers" class="collection-link">Shop Jewelry →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BRAND STORY ================= -->
+    <section class="section-pad" id="story">
+        <div class="container story">
+            <div class="story-img reveal">
+                <img src="https://cdn.shopify.com/s/files/1/0601/9386/5826/files/image_8eecd3a4.png?v=1785041443"
+                    alt="Close, selective-focus detail of a leather bag" loading="lazy">
+            </div>
+            <div class="story-text reveal">
+                <span class="eyebrow">Our Story</span>
+                <h2>Made for the few pieces worth keeping.</h2>
+                <p>Tote &amp; Luxe started from a simple frustration: too many "luxury" bags and jewelry built for a
+                    photo, not a life. We work with a small circle of leatherworkers and jewelers who care about the
+                    underside of a seam and the finish on a clasp just as much as the front of a piece.</p>
+                <p>From canvas totes for campus to stainless-steel and zirconia jewelry for a night out, every piece is
+                    chosen to hold up to daily wear — not just a photograph. That's the only kind of luxury we're
+                    interested in.</p>
+                <div class="story-sign">— The Tote &amp; Luxe Studio</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= BEST SELLERS ================= -->
+    <section class="section-pad" id="bestsellers" style="background:var(--dark-gray);">
+        <div class="container">
+            <div class="head-block reveal">
+                <span class="eyebrow">Most Loved</span>
+                <h2>Best Sellers</h2>
+                <div class="divider-mark"><svg viewBox="0 0 100 60" fill="none">
+                        <path d="M18 18 h64 l-5 40 h-54 z" stroke-width="3" />
+                        <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke-width="3" />
+                    </svg></div>
+                <p>One from each corner of the edit — totes, clutches, bags and jewelry. Tap Quick Add and we'll confirm
+                    availability on WhatsApp.</p>
+            </div>
+
+            <div class="product-grid">
+
+                <div class="product-card reveal">
+                    <div class="product-frame">
+                        <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/BlueKelly_3275fe55-85d0-4740-ab6f-3a7d55b56ff2.jpg?v=1785018922&fm=jpg&q=80&w=900&auto=format&fit=crop"
+                            alt="The blue kelly" loading="lazy">
+                        <button class="wish-btn" aria-label="Add to wishlist"><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21s-7.5-4.6-10-9.2C.5 8.2 2.4 5 5.8 5c2 0 3.4 1 4.2 2.3C10.8 6 12.2 5 14.2 5c3.4 0 5.3 3.2 3.8 6.8C19.5 16.4 12 21 12 21z" />
+                            </svg></button>
+                        <a href="#" class="quick-add wa-link" data-product="Mini Kelly (₦25,000)">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                            </svg>
+                            Quick Add
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Mini Kelly</h4><span class="price">₦25,000</span>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-frame">
+                        <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Polenebagblack.jpg?v=1785017920&fm=jpg&q=80&w=900&auto=format&fit=crop"
+                            alt="The Polene Bag in black leather" loading="lazy">
+                        <button class="wish-btn" aria-label="Add to wishlist"><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21s-7.5-4.6-10-9.2C.5 8.2 2.4 5 5.8 5c2 0 3.4 1 4.2 2.3C10.8 6 12.2 5 14.2 5c3.4 0 5.3 3.2 3.8 6.8C19.5 16.4 12 21 12 21z" />
+                            </svg></button>
+                        <a href="#" class="quick-add wa-link" data-product="Polene (₦24,000)">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                            </svg>
+                            Quick Add
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4>Polene</h4><span class="price">₦24,000</span>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-frame">
+                        <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/silverpinearings.jpg?v=1783975764&fm=jpg&q=80&w=900&auto=format&fit=crop"
+                            alt="The Silver Pine Earrings" loading="lazy">
+                        <button class="wish-btn" aria-label="Add to wishlist"><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21s-7.5-4.6-10-9.2C.5 8.2 2.4 5 5.8 5c2 0 3.4 1 4.2 2.3C10.8 6 12.2 5 14.2 5c3.4 0 5.3 3.2 3.8 6.8C19.5 16.4 12 21 12 21z" />
+                            </svg></button>
+                        <a href="#" class="quick-add wa-link" data-product="The Silver Pine Earrings (₦8,000)">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                            </svg>
+                            Quick Add
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4>The Silver Pine Earrings</h4><span class="price">₦8,000</span>
+                    </div>
+                </div>
+
+                <div class="product-card reveal">
+                    <div class="product-frame">
+                        <img src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/DangleHoopEarringspurple.jpg?v=1783976047&fm=jpg&q=80&w=900&auto=format&fit=crop"
+                            alt="The Dangle Hoop Earrings in purple" loading="lazy">
+                        <button class="wish-btn" aria-label="Add to wishlist"><svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 21s-7.5-4.6-10-9.2C.5 8.2 2.4 5 5.8 5c2 0 3.4 1 4.2 2.3C10.8 6 12.2 5 14.2 5c3.4 0 5.3 3.2 3.8 6.8C19.5 16.4 12 21 12 21z" />
+                            </svg></button>
+                        <a href="#" class="quick-add wa-link"
+                            data-product="The Dangle Hoop Earrings in purple (₦6,700)">
+                            <svg viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                            </svg>
+                            Quick Add
+                        </a>
+                    </div>
+                    <div class="product-info">
+                        <h4>The Dangle Hoop Earrings in purple</h4><span class="price">₦6,700</span>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= LIFESTYLE GALLERY ================= -->
+    <section class="section-pad" id="journal">
+        <div class="container">
+            <div class="gallery-head reveal">
+                <div>
+                    <span class="eyebrow">Lifestyle</span>
+                    <h2 style="margin-top:14px;">The Journal</h2>
+                </div>
+                <p style="max-width:36ch;color:rgba(248,245,240,0.6);font-weight:300;font-size:0.92rem;">Moments with
+                    the pieces, off the studio backdrop.</p>
+            </div>
+
+            <div class="masonry reveal">
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/BlueKelly_3275fe55-85d0-4740-ab6f-3a7d55b56ff2.jpg?v=1785018922&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Sling bag carried outdoors" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/CoffinYslblack.jpg?v=1785018652&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Bag carried near greenery" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://images.unsplash.com/photo-1602173574767-37ac01994b2a?fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Chain bracelet detail" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://images.unsplash.com/photo-1535632066927-ab7c9ab60908?fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Earrings with a cubic zirconia stone" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Black_Tods.jpg?v=1785021955&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Satchel bag on concrete surface" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Totes_5.jpg?v=1785022025&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Woman in coat holding leather handbag" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Totes_4.jpg?v=1785022026&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Handbag against a plain backdrop" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+                <div class="masonry-item"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Black_versece_bag.jpg?v=1785022030&fm=jpg&q=75&w=700&auto=format&fit=crop"
+                        alt="Person holding a brown leather handbag" loading="lazy">
+                    <div class="overlay"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.5">
+                            <circle cx="11" cy="11" r="7" />
+                            <path d="M21 21l-4.3-4.3" />
+                        </svg></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= TESTIMONIALS ================= -->
+    <section class="section-pad" style="background:var(--dark-gray);">
+        <div class="container">
+            <div class="testi-wrap reveal">
+                <div class="testi-slide active">
+                    <div class="stars">★★★★★</div>
+                    <p>"The leather is even better in person - very high quality. Ordering on
+                        WhatsApp was surprisingly the easiest part."</p>
+                    <span>— Amara O.</span>
+                </div>
+                <div class="testi-slide">
+                    <div class="stars">★★★★★</div>
+                    <p>"I've bought bags that cost twice as much and felt half as solid. The stitching on the Aduke Tote
+                        alone tells you everything."</p>
+                    <span>— Zainab K.</span>
+                </div>
+                <div class="testi-slide">
+                    <div class="stars">★★★★★</div>
+                    <p>"Quick replies, no pressure, and the bag matched every photo. That's rarer than it should be."
+                    </p>
+                    <span>— Feyisayo A.</span>
+                </div>
+                <div class="testi-dots">
+                    <button class="active" data-i="0"></button>
+                    <button data-i="1"></button>
+                    <button data-i="2"></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= STATS ================= -->
+    <section class="stats-strip">
+        <div class="stats-grid">
+            <div class="stat reveal">
+                <div class="num" data-count="100" data-suffix="%">0%</div>
+                <div class="lbl">Genuine Leather &amp; Hardware</div>
+            </div>
+            <div class="stat reveal">
+                <div class="num" data-count="48" data-suffix="hrs">0</div>
+                <div class="lbl">Ilorin Dispatch Time</div>
+            </div>
+            <div class="stat reveal">
+                <div class="num" data-count="36" data-suffix="+">0</div>
+                <div class="lbl">States We Ship To</div>
+            </div>
+            <div class="stat reveal">
+                <div class="num" data-static="1:1">1:1</div>
+                <div class="lbl">Personal WhatsApp Styling</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= WAITLIST ================= -->
+    <section class="section-pad waitlist" id="waitlist">
+        <div class="container">
+            <span class="eyebrow reveal">Before We Launch</span>
+            <h2 class="reveal">Become a Tote &amp; Luxe Insider</h2>
+            <p class="reveal">Join the list for first access to new drops, a launch-week discount, and pieces released
+                before they reach WhatsApp.</p>
+
+            <div class="perks reveal">
+                <div class="perk"><svg viewBox="0 0 24 24">
+                        <path d="M12 2l2.4 6.5L21 10l-5 4.2L17.4 21 12 17.3 6.6 21 8 14.2 3 10l6.6-1.5z" />
+                    </svg>Early Access</div>
+                <div class="perk"><svg viewBox="0 0 24 24">
+                        <circle cx="12" cy="12" r="9" />
+                        <path d="M8 12h8M12 8v8" />
+                    </svg>Launch Discount</div>
+                <div class="perk"><svg viewBox="0 0 24 24">
+                        <path d="M4 4h16v16H4z" />
+                        <path d="M4 8h16" />
+                    </svg>VIP Offers</div>
+            </div>
+
+            <form class="wl-form reveal" id="waitlistForm" name="waitlist_subscribers">
+                <input type="email" name="email" required placeholder="Your email address" id="wlEmail">
+            
+                <input type="hidden" name="sheet_name" value="Subscribers">
+                <input type="hidden" name="status" value="Active">
+                <input type="hidden" name="source" value="Waitlist">
+                <input type="hidden" name="consent" value="Yes">
+                <input type="hidden" name="unsubscribeDate" value="">
+            
+                <button type="submit">Join the Waitlist</button>
+            </form>
+            
+            <p class="wl-thanks" id="wlThanks">
+                You're on the list — welcome to the Insider circle.
+            </p>
+        </div>
+    </section>
+
+    <!-- ================= COUNTDOWN ================= -->
+    <!-- <section class="section-pad countdown-wrap" style="background:var(--dark-gray);">
+        <span class="eyebrow reveal">Pre-Launch</span>
+        <h2 class="reveal" style="margin-top:14px;">The Full Edit Launches In</h2>
+        <div class="countdown-grid reveal">
+            <div class="cd-box">
+                <div class="n" id="cdDays">00</div>
+                <div class="l">Days</div>
+            </div>
+            <div class="cd-box">
+                <div class="n" id="cdHours">00</div>
+                <div class="l">Hours</div>
+            </div>
+            <div class="cd-box">
+                <div class="n" id="cdMins">00</div>
+                <div class="l">Minutes</div>
+            </div>
+            <div class="cd-box">
+                <div class="n" id="cdSecs">00</div>
+                <div class="l">Seconds</div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- ================= TRUST / SOCIAL PROOF ================= -->
+    <section class="section-pad">
+        <div class="container">
+            <div class="head-block reveal">
+                <span class="eyebrow">Why Trust Us</span>
+                <h2>Built On the Details</h2>
+            </div>
+            <div class="trust-row reveal">
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" stroke-width="1.4">
+                        <path d="M12 2l8 4v6c0 5-3.4 8.4-8 10-4.6-1.6-8-5-8-10V6z" />
+                        <path d="M9 12l2 2 4-4" />
+                    </svg>
+                    <h4>Authenticity Guaranteed</h4>
+                    <p>Every material sourced and inspected before it becomes a Tote &amp; Luxe piece.</p>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" stroke-width="1.4">
+                        <path d="M3 5h13v11H3z" />
+                        <path d="M16 9h3l2 3v4h-5z" />
+                        <circle cx="7.5" cy="18" r="1.6" />
+                        <circle cx="17.5" cy="18" r="1.6" />
+                    </svg>
+                    <h4>Nationwide Delivery</h4>
+                    <p>Dispatched from Ilorin, tracked to your door anywhere in Nigeria — and beyond on request.</p>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" stroke-width="1.4">
+                        <path
+                            d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2z" />
+                    </svg>
+                    <h4>Concierge on WhatsApp</h4>
+                    <p>Talk to a real person, ask for extra photos, and check out without an account or app download.
+                    </p>
+                </div>
+                <div class="trust-item">
+                    <svg viewBox="0 0 24 24" stroke-width="1.4">
+                        <path d="M4 20l4-10 4 6 3-4 5 8z" />
+                        <path d="M4 20h16" />
+                    </svg>
+                    <h4>Made in Small Numbers</h4>
+                    <p>We restock deliberately rather than mass-produce, so pieces stay considered, not disposable.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= INSTAGRAM ================= -->
+    <section class="section-pad" style="padding-top:0;">
+        <div class="container">
+            <div class="head-block reveal">
+                <span class="eyebrow">Follow Along on IG</span>
+                <h2><a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener noreferrer">@tote_luxefashion</a></h2>
+            </div>
+            <div class="insta-grid reveal">
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Statementearings.jpg?v=1783975305&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/WideFloralMarquiseOpenRing.jpg?v=1783975588&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Black_Jean_couture_sholder_bag.jpg?v=1785022031&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/silverpinearings.jpg?v=1783975764&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Shellbaggreen.jpg?v=1783976500&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+                <a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener"><img
+                        src="https://cdn.shopify.com/s/files/1/0740/4303/1713/files/Shellbagblack.jpg?v=1783976416&fm=jpg&q=70&w=500&auto=format&fit=crop"
+                        alt="Instagram post preview" loading="lazy"></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FAQ ================= -->
+    <section class="section-pad" id="contact" style="background:var(--dark-gray);">
+        <div class="container">
+            <div class="head-block reveal">
+                <span class="eyebrow">Questions</span>
+                <h2>Good to Know</h2>
+            </div>
+
+            <div class="faq reveal">
+                <div class="faq-item open">
+                    <button class="faq-q"><span>How do I actually place an order?</span><span
+                            class="plus"></span></button>
+                    <div class="faq-a">
+                        <div>Tap any "Order" or "Quick Add" button — it opens WhatsApp with your message ready. We
+                            confirm stock, take payment details, and arrange delivery from there. No account needed.
+                        </div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q"><span>What are your shipping times?</span><span class="plus"></span></button>
+                    <div class="faq-a">
+                        <div>Orders within Ilorin typically dispatch within 48 hours. Other states across Nigeria usually
+                            arrive within 3–5 working days.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q"><span>Can I return or exchange a piece?</span><span
+                            class="plus"></span></button>
+                    <div class="faq-a">
+                        <div>Yes — unused pieces in <strong><b>original</b></strong> condition can be exchanged within 7 days of delivery.
+                            Message us on WhatsApp with your order details to start the process.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q"><span>What materials do you use?</span><span class="plus"></span></button>
+                    <div class="faq-a">
+                        <div>Bags: full-grain and canvas materials with solid or gold-tone hardware and cotton-twill
+                            linings. Jewelry: 316L stainless steel and fashion pieces set with cubic zirconia, chosen to
+                            resist tarnish. Material details are listed for every piece before you buy.</div>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-q"><span>How do I know a piece is authentic?</span><span
+                            class="plus"></span></button>
+                    <div class="faq-a">
+                        <div>Every Tote &amp; Luxe piece ships with a signed authenticity card and close-up photos of
+                            your exact item on request before dispatch.</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ================= FOOTER ================= -->
+    <footer>
+        <div class="container">
+            <div class="foot-grid">
+                <div class="foot-logo">
+                    <a href="#home" class="logo-mark">
+                        <svg viewBox="0 0 100 60" fill="none" width="24" height="24">
+                            <path d="M18 18 h64 l-5 40 h-54 z" stroke="#C8A646" stroke-width="3" />
+                            <path d="M32 18 v-4 a18 18 0 0 1 36 0 v4" stroke="#C8A646" stroke-width="3" />
+                        </svg>
+                        <span class="word">Tote <em style="color:#C8A646;font-style:normal;">&amp;</em> Luxe</span>
+                    </a>
+                    <p>Considered bags and jewelry, ordered directly on WhatsApp. Based in Ilorin, shipping nationwide.
+                    </p>
+                </div>
+                <div class="foot-col">
+                    <h5>Shop</h5>
+                    <ul>
+                        <li><a href="#collection">Collection</a></li>
+                        <li><a href="#bestsellers">Best Sellers</a></li>
+                        <li><a href="#waitlist">Waitlist</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h5>Studio</h5>
+                    <ul>
+                        <li><a href="#story">About</a></li>
+                        <li><a href="#journal">Journal</a></li>
+                        <li><a href="#contact">FAQ</a></li>
+                    </ul>
+                </div>
+                <div class="foot-col">
+                    <h5>Connect</h5>
+                    <ul>
+                        <li><a href="https://www.instagram.com/totes_luxefashion/" target="_blank" rel="noopener">Instagram</a>
+                        </li>
+                        <li><a href="https://www.tiktok.com/@toteandluxebagilorin" target="_blank" rel="noopener">TikTok</a></li>
+                        <!-- <li><a href="https://pinterest.com/toteandluxe" target="_blank" rel="noopener">Pinterest</a> -->
+                        </li>
+                        <li><a href="#" class="wa-link">WhatsApp</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="foot-bottom">
+                <span>© 2026 Tote &amp; Luxe.NG All rights reserved.</span>
+                <span>Privacy · Terms</span>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="wa-float wa-link" aria-label="Chat on WhatsApp" target="_blank" rel="noopener">
+        <svg viewBox="0 0 24 24">
+            <path
+                d="M12 2C6.48 2 2 6.48 2 12c0 1.85.5 3.58 1.36 5.07L2 22l5.06-1.33A9.94 9.94 0 0 0 12 22c5.52 0 10-4.48 10-10S17.52 2 12 2zm5.2 14.2c-.22.6-1.28 1.16-1.76 1.2-.45.05-1.01.07-1.63-.1-.37-.1-.85-.27-1.46-.53-2.57-1.11-4.24-3.7-4.37-3.87-.13-.17-1.04-1.38-1.04-2.63 0-1.26.66-1.87.9-2.13.24-.26.52-.32.7-.32h.5c.16 0 .38-.06.6.45.22.53.75 1.83.82 1.96.07.13.11.29.02.46-.35.68-.7.66-.5 1a8.9 8.9 0 0 0 1.62 2c.72.63 1.32.83 1.5.92.19.1.3.08.4-.05.13-.16.55-.64.7-.86.15-.22.29-.18.49-.1.2.07 1.27.6 1.49.71.22.11.36.16.42.25.06.1.06.55-.16 1.14z" />
+        </svg>
+    </a>
+
+    <button class="top-btn" id="topBtn" aria-label="Back to top"><svg viewBox="0 0 24 24" fill="none"
+            stroke-width="1.6">
+            <path d="M12 19V5M5 12l7-7 7 7" />
+        </svg></button>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
