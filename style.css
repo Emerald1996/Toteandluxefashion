@@ -37,6 +37,13 @@ img {
     height: auto;
 }
 
+.footer_logo{
+    width: 100px;
+    height: auto;
+    object-fit: cover;
+    margin-top: -20px;
+}
+
 h1,
 h2,
 h3,
